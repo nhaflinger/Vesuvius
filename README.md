@@ -10,7 +10,9 @@ Vesuvius is a Navier Stokes solver for gas dynamic simulations for computer grap
 * Support for both linear and cubic interpolation
 * Vorticity confinement
 * Procedural turbulence (curl noise)
-* 
+* Procedural noise on emission objects
+
+## Build
 
 ## Installation
 
