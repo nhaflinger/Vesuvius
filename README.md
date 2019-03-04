@@ -21,4 +21,4 @@ Vesuvius is a Navier Stokes solver for gas dynamic simulations for computer grap
 ## Credits
 
 ## License
-MIT © Douglas Creel
+MIT © Douglas D. Creel
