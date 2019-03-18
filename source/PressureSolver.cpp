@@ -114,7 +114,7 @@ VectorXd PressureSolver::jacobiSolver(bool useGuess, SparseMatrix<double> A, Vec
 	return xnew;
 }
 
-// N-grid V-cycle
+// N-grid V-cycle (this is experimental, in other words it doesn't work yet)
 VectorXd PressureSolver::multiGridSolver_Vcycle(bool useGuess, SparseMatrix<double> A, VectorXd b, VectorXd guess)
 {
 	if (!useGuess) guess.setZero();
