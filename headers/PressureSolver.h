@@ -25,6 +25,7 @@ public:
 
 	VectorXd jacobiSolver(bool useGuess, SparseMatrix<double> A, VectorXd b, VectorXd guess);
 
+	// this is experimental, in other words it doesn't work yet
 	VectorXd multiGridSolver_Vcycle(bool useGuess, SparseMatrix<double> A, VectorXd b, VectorXd guess);
 
 	void setMaxIterations(int iterations);
